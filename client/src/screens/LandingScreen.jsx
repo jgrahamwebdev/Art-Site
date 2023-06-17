@@ -57,7 +57,7 @@ const LandingScreen = () => {
                     animate={{
                         scale: [2, 2, 2, 1, 1],
                         rotate: [0, 0, 180, 180, 0],
-                        borderRadius: ["0%", "0%", "50%", "50%", "0%"]
+                        borderRadius: ["10%", "25%", "50%", "50%", "50%"]
                     }}
                     transition={{
                         duration: 2,
@@ -67,7 +67,7 @@ const LandingScreen = () => {
                         repeatDelay: 1
                     }}
                 >
-                    <h1 className="font-bold text-[1.5rem] text-black">LOGO</h1>
+                    <img className="w-[65%] h-auto" src="./imgs/keyhole.svg" alt="" />
                 </motion.div>
                 {/* <motion.h1 className="text-[3rem]">{rounded}</motion.h1> */}
                 <h2 className="text-[1.8vw] uppercase font-newsreader font-light mt-2">J-J Projects</h2>
