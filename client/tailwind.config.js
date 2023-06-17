@@ -4,7 +4,8 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    },
     fontFamily: {
       'grotesk': ['Schibsted Grotesk', 'sans-serif'],
       'newsreader': ['Newsreader', 'serif'],

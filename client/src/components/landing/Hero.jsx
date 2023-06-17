@@ -1,7 +1,7 @@
 
 const Hero = () => {
     return (
-        <div className="w-screen h-[92vh] bg-[url('https://unsplash.it/1400/1000')] bg-no-repeat bg-center bg-cover">
+        <div className="w-screen h-[98vh] bg-[url('https://source.unsplash.com/5GwLlb-_UYk')] bg-no-repeat bg-center bg-cover pt-[48px] bg-fixed">
             <div className="flex flex-col items-center justify-between h-full">
 
             <div className="w-full pt-[48px] pl-[48px]">
@@ -10,7 +10,7 @@ const Hero = () => {
 
             <div>
                 <h1 className="font-newsreader text-[4rem] text-white w-[65%] pl-[48px] mb-6">A Look Into the Works of Amazing Emerging Artists</h1>
-                <p className="text-white pl-[48px] pb-[48px] text-[1.2rem] font-grotesk">Enter</p>
+                <button className="text-white ml-[48px] mb-[48px] text-[1.2rem] font-grotesk">Enter</button>
             </div>
 
             </div>
