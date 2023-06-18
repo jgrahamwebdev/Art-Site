@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const SectionTwo = () => {
     return (
-        <div className="w-screen h-screen flex items-center justify-center">
+        <div className="w-screen h-auto flex items-center justify-center">
             {sectionTwoData.map((item) => (  
                 <div className="flex-1 h-full" key={item.id} style={{backgroundColor: item.color}}>
                     <div className="flex flex-col items-center justify-between h-full">
@@ -21,7 +21,7 @@ const SectionTwo = () => {
                               ease: [0, 0.71, 0.2, 1.01]
                             }} 
                         >                       
-                            <img className="h-[400px] w-[350px] pr-[48px] object-cover transition transform ease-in-out" src={item.img} alt="" />
+                            <img className="h-[400px] w-[350px] pr-[48px] object-cover transition transform ease-in-out mb-8" src={item.img} alt="" />
                         </motion.div>
 
                         <div className="w-full pl-[48px]">

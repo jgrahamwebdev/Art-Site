@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingScreen from './screens/LandingScreen';
 import { useEffect, useState } from 'react';
+import DetailScreen from './screens/DetailScreen';
 
 function App() {
   // **Add 'cursor: none;' to App.css 
@@ -59,6 +60,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<LandingScreen /> } />
+        <Route path='/detail' element={<DetailScreen /> } />
       </Routes>
     </div>
     </Router>

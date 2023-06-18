@@ -26,7 +26,7 @@ const LandingScreen = () => {
         setTimeout(() => {
             setPreloader(false);
             console.log("set timer");
-        }, 3000);
+        }, 2500);
 
         clearTimeout();
     }, []);

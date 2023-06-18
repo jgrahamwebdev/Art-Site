@@ -6,7 +6,7 @@ const SectionThree = () => {
     return (
         <div>
         {sectionThreeData.map((item) => (   
-        <div className='w-screen h-screen' key={item.id} style={{backgroundColor: item.color}}>
+        <div className='w-screen h-auto' key={item.id} style={{backgroundColor: item.color}}>
             <div className="flex flex-col items-center justify-between h-full">
 
             <div className="w-full pt-[48px] pl-[48px]">
@@ -22,7 +22,7 @@ const SectionThree = () => {
                   ease: [0, 0.71, 0.2, 1.01]
                 }} 
             >
-                <img className="h-[400px] w-[300px] pr-[48px] object-cover transition transform ease-in-out" src={item.img} alt="" />
+                <img className="h-[400px] w-[300px] pr-[48px] object-cover transition transform ease-in-out mb-8" src={item.img} alt="" />
             </motion.div>
 
             <div className="w-full pl-[48px]">
